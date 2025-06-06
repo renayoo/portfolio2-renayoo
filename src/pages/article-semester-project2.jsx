@@ -1,8 +1,15 @@
+import projects from "../data/projects";
+import ArticleLayout from "../components/ArticleLayout";
+
 export default function SemesterArticle() {
+  const project = projects.find(p => p.title === "Semester Project 2");
+
   return (
-    <div className="max-w-3xl mx-auto py-12 px-4">
-      <h1 className="text-2xl font-bold mb-4">Semester Project 2</h1>
-      <p>This article describes the process and results of my semester project...</p>
-    </div>
+    <ArticleLayout title={project.title} image={project.image} liveLink={project.liveLink}>
+      <p>
+        This article describes the process and results of my semester project...
+      </p>
+      {/* Legg til mer innhold her om du vil */}
+    </ArticleLayout>
   );
 }

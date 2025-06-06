@@ -1,8 +1,18 @@
+import projects from "../data/projects";
+import ArticleLayout from "../components/ArticleLayout";
+
 export default function ExamArticle() {
+  const project = projects.find((p) => p.title === "Exam Project 2");
+
   return (
-    <div className="max-w-3xl mx-auto py-12 px-4">
-      <h1 className="text-2xl font-bold mb-4">Exam Project 2</h1>
-      <p>This article describes the project...</p>
-    </div>
+    <ArticleLayout title={project.title} image={project.image} liveLink={project.liveLink}>
+      <p>
+        Dette er en detaljert beskrivelse av Exam Project 2. Her kan du forklare hva prosjektet går ut på,
+        utfordringer du møtte, teknologier du brukte, og annet relevant innhold.
+      </p>
+      <p>
+        Placeholder
+      </p>
+    </ArticleLayout>
   );
 }
