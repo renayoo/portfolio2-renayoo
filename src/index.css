@@ -1,1 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Freeman&family=Pacifico&family=Quicksand:wght@300..700&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Freeman&family=Pacifico&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+    --color-navbar: #FEC0B3;
+    --color-baby-blue: #A8F1FF;
+    --font-quicksand: "Quicksand", "sans-serif";
+    --font-savate: "Savate", "sans-serif";
+}
