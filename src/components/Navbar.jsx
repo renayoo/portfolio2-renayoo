@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <nav className="bg-navbar shadow-md py-5 px-6 flex justify-between items-center">
@@ -10,12 +12,7 @@ export default function Navbar() {
       </a>
       <ul className="font-savate text-black text-2xl font-bold flex gap-4 ">
         <li>
-          <a
-            href="/projects"
-            className="transition-all duration-300 ease-out hover:scale-110 hover:font-semibold hover:text-white"
-          >
-            Projects
-          </a>
+          <Link to="/projects">Projects</Link>
         </li>
       </ul>
     </nav>
