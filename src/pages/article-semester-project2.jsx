@@ -21,7 +21,7 @@ export default function SemesterArticle() {
       </p>
 
       <p>
-        The site interacts with a Noroff-provided API and supports user registration, authentication, and dynamic bidding functionality. I used vanilla JavaScript, SCSS, and REST API calls.
+        The site interacts with a Noroff-provided API and supports user registration, authentication, and dynamic bidding functionality. 
       </p>
 
       <p>

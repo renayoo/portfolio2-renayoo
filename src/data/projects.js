@@ -6,7 +6,7 @@ const projects = [
     githubRepo: "https://github.com/renayoo/semester-project2-auction",
     articleLink: "/article-semesterproject2",
     readmeLink: "https://github.com/renayoo/semester-project2-auction/blob/main/README.md",
-    image: "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_1280.jpg",
+    image: "https://i.ibb.co/jP4SHbf0/Skjermbilde-2025-06-08-173742.png",
   },
   {
     title: "JavaScript Frameworks",
@@ -15,7 +15,7 @@ const projects = [
     githubRepo: "https://github.com/renayoo/react-online-shop",
     readmeLink: "https://github.com/renayoo/react-online-shop/blob/main/README.md",
     articleLink: "/article-javascript-frameworks",
-    image: "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_1280.jpg",
+    image: "https://i.ibb.co/HDVv3Y5G/Skjermbilde-2025-06-08-175518.png",
   },
   {
     title: "Exam Project 2",
