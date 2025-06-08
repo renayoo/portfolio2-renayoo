@@ -42,10 +42,13 @@ export default function ExamArticle() {
         alt="Venue detail view"
         className="my-6 rounded-lg shadow-md max-h-100"
       />
-
       <p>
         Each venue has its own detail page with information, calendar-based booking, and owner details. The booking logic is built with
         local state and validates availability.
+      </p>
+      <br></br>
+      <p>
+        <strong>Self-assessment:</strong> I’m proud of how I managed the complexity of this project, especially the use of conditional logic and form handling for booking functionality. I challenged myself by working with multiple user roles and building a responsive, dynamic interface. If I were to improve the project, I would focus on better error handling and cleaner separation of logic into custom hooks or reusable functions. I also learned the value of planning API structure early to avoid rework.
       </p>
     </ArticleLayout>
   );

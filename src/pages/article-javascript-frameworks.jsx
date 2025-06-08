@@ -27,6 +27,10 @@ export default function FrameworksArticle() {
       <p>
         I focused on clean component structure, styling with Tailwind, and managing cart state with React hooks.
       </p>
+      <br></br>
+      <p>
+        <strong>Self-assessment:</strong> This project helped me grow more confident in working with React and routing. I was satisfied with how I structured the product views and cart logic. However, I would improve state management by introducing a context or store (like Redux or Zustand) in future projects. I also realized the importance of testing components more thoroughly before styling.
+      </p>
     </ArticleLayout>
   );
 }
