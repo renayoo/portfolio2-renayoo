@@ -4,12 +4,29 @@ import ArticleLayout from "../components/ArticleLayout";
 export default function SemesterArticle() {
   const project = projects.find(p => p.title === "Semester Project 2");
 
+  if (!project) {
+    return <p className="text-red-500 text-center py-10">⚠️ Project not found.</p>;
+  }
+
   return (
-    <ArticleLayout title={project.title} image={project.image} liveLink={project.liveLink}>
+    <ArticleLayout
+      title={project.title}
+      image={project.image}
+      liveLink={project.liveLink}
+      githubLink={project.githubRepo}
+      readmeLink={project.readmeLink}
+    >
       <p>
-        This article describes the process and results of my semester project...
+        This article describes the process and results of my Semester Project 2 at Noroff. I was tasked with building an auction site where users can sign up, create listings, and bid.
       </p>
-      {/* Legg til mer innhold her om du vil */}
+
+      <p>
+        The site interacts with a Noroff-provided API and supports user registration, authentication, and dynamic bidding functionality. I used vanilla JavaScript, SCSS, and REST API calls.
+      </p>
+
+      <p>
+        Through this project, I strengthened my understanding of state management, API integration, and responsive design.
+      </p>
     </ArticleLayout>
   );
 }
