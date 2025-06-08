@@ -58,7 +58,3 @@ npm run dev
 ```
 
 Then open your browser and go to [http://localhost:5173](http://localhost:5173) to see it in action.
-
-## Acknowledgments
-
-This is my portfoilo, reloading the articles will show "page not found". Trying to resolve it. 
