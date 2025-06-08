@@ -36,8 +36,6 @@ You can find highlights of the project like:
 
 ### Installing
 
-### Installing
-
 To get this project up and running locally:
 
 1. Clone the repo:
